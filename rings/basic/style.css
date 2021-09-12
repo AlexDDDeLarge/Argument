@@ -1,0 +1,62 @@
+:focus {
+  outline: 0;
+}
+
+@font-face {
+  font-family: 'a_BosaNova';
+  src: url('subset-ABosaNova.woff2') format('woff2'),
+       url('subset-ABosaNova.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #989898;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(100%);
+}
+
+.container {
+  position: relative;
+  max-width: 1286px;
+  margin: 0 auto;
+}

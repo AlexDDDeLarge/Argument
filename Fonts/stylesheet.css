@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'a_BosaNova';
+    src: url('subset-ABosaNova.woff2') format('woff2'),
+        url('subset-ABosaNova.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

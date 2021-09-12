@@ -1,0 +1,37 @@
+.header__btn {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+}
+
+.header__like:hover,
+.header__basket:hover {
+  stroke: #BFA880;
+}
+
+
+.header__btn.liked .like-counter {
+  position: absolute;
+  display: block;
+
+  left: 50%;
+  top: -30px;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #BFA880;
+
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 24px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.like-counter {
+  display: none;
+}

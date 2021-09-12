@@ -1,0 +1,104 @@
+.footer {
+  max-height: 780px;
+  background-color: lightyellow;
+  background-image:
+    linear-gradient(rgba(60, 80, 79, 0.75), rgba(60, 80, 79, 0.75)),
+    url(img/lives.jpg),
+    /*linear-gradient(9.49deg, #3c504f 68%, #FFF 68%);*/
+    linear-gradient(8.186deg, #3c504f 68%, #FFF 68%);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right bottom, right bottom, left bottom;
+  /*background-size: 490px 500px, 490px 500px, auto;*/
+  background-size: 25.8% 65.4%, 25.8% 65.4%, auto;
+}
+
+.footer-container {
+  padding-top: 325px;
+  padding-bottom: 40px;
+}
+
+.footer-flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer-nav:first-child {
+  width: 190px;
+  margin-right: 50px;
+}
+
+.footer-nav:nth-child(2) {
+  width: 220px;
+  margin-right: 80px;
+}
+
+.footer-nav:nth-child(3) {
+  width: 140px;
+  margin-right: 190px;
+}
+
+.footer-nav__caption {
+  margin-bottom: 30px;
+  color: #bfa880;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.footer-nav__caption a {
+  color: #bfa880;
+}
+
+.footer-nav__caption:hover {
+  text-decoration: underline;
+  color: #BFA880;
+}
+
+.footer-nav__link {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.footer-nav__link:hover {
+  text-decoration: underline;
+  color: #BFA880;
+}
+
+li .footer-social__link {
+  padding-bottom: 10px;
+  color: #bfa880;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.footer-social__link span {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.footer-cosial__icon {
+  position: relative;
+  top: 5px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  color: rgba(191, 168, 128, 0.54);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}

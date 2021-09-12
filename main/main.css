@@ -1,0 +1,360 @@
+/*INTRO*/
+.intro {
+  background-image:
+    linear-gradient(rgba(60, 80, 79, 0.85), rgba(60, 80, 79, 0.85)),
+    url(img/intro-leaflets.jpg),
+    url(img/ornament.png)
+  ;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top left, top left, top right;
+  /*background-size: 1415px 800px, 1415px 800px, 505px 800px;*/
+  background-size: 73.7% 800px, 73.7% 800px, 26.3% 800px;
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.intro__wrapper {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 520px;
+  height: 700px;
+  padding-top: 225px;
+}
+
+.intro__description {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 2.5;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.intro__caption {
+  padding: 0;
+  margin: 0;
+  font-family: 'a_BosaNova';
+  font-size: 100px;
+  line-height: 0.8;
+  color: #bfa880;
+}
+
+.intro__text {
+  margin-top: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #989898;
+}
+
+.intro__switch {
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+}
+
+.intro__btn {
+  opacity: 0.6;
+  border: 0;
+  box-shadow: 0;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2.14;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+}
+
+.intro__btn--active {
+  opacity: 1;
+  color: #bfa880;
+}
+
+
+
+
+
+
+
+
+
+
+
+.intro__slider {
+  margin: 50px 0px;
+}
+
+.intro-slider__img {
+  position: relative;
+  width: 650px;
+  height: 700px;
+  background-image: url(img/intro-girl.jpg);
+}
+
+.intro-slider__btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 139px;
+  height: 50px;
+  border: 0;
+  box-shadow: 0;
+  background-color: #bfa880;
+}
+
+.intro-slider__arrow {
+  stroke: rgba(191, 168, 128, 0.54);
+}
+
+/* CATALOG */
+
+.catalog__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.catalog__wrapper {
+  margin-top: 110px;
+}
+
+.catalog__info,
+.catalog__good,
+.catalog__sale {
+  box-sizing: border-box;
+  width: 370px;
+  height: 370px;
+  margin-bottom: 130px;
+
+  background-color: #f4f3f3;
+  font-family: Montserrat;
+  color: #3c504f;
+}
+
+.catalog__good--big {
+  height: 520px;
+  margin-top: 130px;
+}
+
+/* CATALOG: INFO */
+
+.catalog__info {
+  height: 380px;
+  background-color: inherit;
+}
+
+.info__main-caption {
+  margin-bottom: 21px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 2.5;
+  letter-spacing: 2.4px;
+  color: #bfa880;
+}
+
+.info__caption {
+  margin-bottom: 60px;
+  font-family: "a_BosaNova";
+  font-size: 50px;
+  line-height: 0.48;
+  color: #3c504f;
+}
+
+.info__text {
+  max-width: 287px;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #989898;
+}
+
+/* CATALOG: GOODS */
+
+.catalog__good {
+  position: relative;
+}
+
+.good__caption {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  color: #3c504f;
+}
+
+.catalog__good--brooches {
+  background-image: url(img/goods/brooches.jpg);
+}
+
+.catalog__good--pendants {
+  background-image: url(img/goods/pendants.jpg);
+}
+
+.catalog__good--bracelets {
+  background-image: url(img/goods/bracelets.jpg);
+}
+
+.catalog__good--rings {
+  background-image: url(img/goods/rings.jpg);
+}
+
+.catalog__good--earrings {
+  background-image: url(img/goods/earrings.jpg);
+}
+
+.catalog__good--necklaces {
+  background-image: url(img/goods/necklaces.jpg);
+}
+/* CATALOG: SALE */
+
+.catalog__sale {
+  position: relative;
+  background-color: white;
+  background-image: url(img/ornament.png);
+  background-position: 0 -90px
+}
+
+.catalog__sale::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 280px;
+  height: 280px;
+  background-color: white;
+}
+
+.sale__text {
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #bfa880;
+}
+
+.sale__number {
+  position: absolute;
+  top: 189px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "a_BosaNova";
+  font-size: 64px;
+  line-height: 0.38;
+  text-transform: uppercase;
+  color: #3c504f;
+}
+
+/* COLLECTION */
+
+.collection__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -20px;
+}
+
+/* Collection Content */
+
+.collection__content {
+  padding-top: 90px;
+  max-width: 520px;
+}
+
+.collection__main-caption {
+  margin: 0;
+  margin-bottom: 22px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 2.5;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #bfa880;
+}
+
+.collection__caption {
+  margin: 0;
+  margin-bottom: 35px;
+  font-family: "a_BosaNova";
+  font-size: 50px;
+  line-height: 0.48;
+  color: #3c504f;
+}
+
+.collection__discription {
+  margin-bottom: 90px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #989898;
+}
+
+.collection__link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2.14;
+  color: rgba(191, 168, 128, 0.71);
+}
+
+.collection__link--active {
+  color: #3c504f;
+}
+
+/* Collection Slider */
+
+.collection-slider__img  {
+  position: relative;
+  width: 580px;
+  height: 580px;
+  background-image: url(img/collection/energy_girl.jpg);
+}
+
+.collection-slider__small-img {
+  position: absolute;
+  top: 50%;
+  left: -95px;
+  transform: translateY(-50%);
+  width: 260px;
+  height: 260px;
+
+  background-color: #000;
+  background-image: url(img/collection/energy_jewelry.jpg);
+}
+
+.collection-slider__btn {
+  position: absolute;
+  bottom: 0;
+  width: 139px;
+  height: 50px;
+  border: 0;
+  box-shadow: 0;
+  background-color: #ffffff;
+}
+
+.collection-slider__btn--left {
+  left: 0;
+}
+
+.collection-slider__btn--right {
+  right: 0;
+}
